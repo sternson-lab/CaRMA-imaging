@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!ELEMENT neuron (area_list)>
+<!ATTLIST neuron id NMTOKEN #REQUIRED>
+<!ATTLIST neuron expanded NMTOKEN #REQUIRED>
+<!ELEMENT area_list EMPTY>
+<!ATTLIST area_list id NMTOKEN #REQUIRED>
+<!ATTLIST area_list oid NMTOKEN #REQUIRED>
+<!ATTLIST area_list expanded NMTOKEN #REQUIRED>
